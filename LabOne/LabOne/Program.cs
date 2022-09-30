@@ -13,17 +13,22 @@ namespace LabOne
             steppedArray[1] = new int[3] { 3, 4, 5 };
             steppedArray[2] = new int[4] { 6, 7, 8, 9 };
 
-            for (int i = 0; i < 2; i++)
-                Console.Write(String.Format("{0}\t", steppedArray[0][i]));
-            Console.WriteLine();
+            void printArray(int[][] arr) //local function for steppedArray 3*x
+            {
+                for (int i = 0; i < arr[0].Length; i++)
+                    Console.Write(string.Format("{0}\t", arr[0][i]));
+                Console.WriteLine();
 
-            for (int i = 0; i < 3; i++)
-                Console.Write(String.Format("{0}\t", steppedArray[1][i]));
-            Console.WriteLine();
+                for (int i = 0; i < arr[1].Length; i++)
+                    Console.Write(string.Format("{0}\t", arr[1][i]));
+                Console.WriteLine();
 
-            for (int i = 0; i < 4; i++)
-                Console.Write(String.Format("{0}\t", steppedArray[2][i]));
-            Console.WriteLine();
+                for (int i = 0; i < arr[2].Length; i++)
+                    Console.Write(string.Format("{0}\t", arr[2][i]));
+                Console.WriteLine();
+            }
+
+            printArray(steppedArray);
 
             return;
         }
@@ -66,6 +71,7 @@ namespace LabOne
 
             return;
         }
+
         static void Main(string[] args)
         {
             //inicialization
@@ -83,7 +89,10 @@ namespace LabOne
             short shortType = -30000;
             ushort uShortType = 60000;
             string stringType = Console.ReadLine();
-            Console.WriteLine("\n<--------->\n\nchar: {0}\nInt type: {1}\nlong: {2}\nstring: {3}", charType, intType, longType, stringType);
+            Console.WriteLine(
+                "\n<--------->\n\nchar: {0}\nInt type: {1}\nlong: {2}\nstring: {3}",
+                charType, intType, longType, stringType
+            );
             Console.WriteLine(
                 "bool: {0}\nsbyte: {1}\nbyte: {2}\ndecimal: {3}\nfloat: {4}\ndouble: {5}\nuint: {6}\nulong: {7}\nshort: {8}\nushort: {9}",
                 boolType, sByteType, byteType, decimalType, floatType, doubleType, uIntType, uLongType, shortType, uShortType
@@ -96,7 +105,10 @@ namespace LabOne
             short shortX = x;
             ushort uShortX = x;
             ulong uLongX = x;
-            Console.WriteLine("\nImplicit conversion\nbyte: {0}\nint: {1}\nlong: {2}\nshort: {3}\nushort: {4}\nulong: {5}", x, intX, longX, shortX, uShortX, uLongX);
+            Console.WriteLine(
+                "\nImplicit conversion\nbyte: {0}\nint: {1}\nlong: {2}\nshort: {3}\nushort: {4}\nulong: {5}", 
+                x, intX, longX, shortX, uShortX, uLongX
+            );
             
             //explicit conversions
             int y = 200;
@@ -105,7 +117,10 @@ namespace LabOne
             short shortY = (short)y;
             uint uIntY = (uint)y;
             ushort uShortY = (ushort)y;
-            Console.WriteLine("\nExplicit conversion\nint: {0}\nbyte: {1}\nlong: {2}\nshort: {3}\nuint: {4}\nushort: {5}", y, byteY, longY, shortY, uIntY, uShortY);
+            Console.WriteLine(
+                "\nExplicit conversion\nint: {0}\nbyte: {1}\nlong: {2}\nshort: {3}\nuint: {4}\nushort: {5}",
+                y, byteY, longY, shortY, uIntY, uShortY
+            );
 
             //packaging and unpackaging
             int packInt = 12345;
@@ -215,6 +230,7 @@ namespace LabOne
                 "{0} - {1} - {2}",
                 firstCortege.Item1, firstCortege.Item3, firstCortege.Item4
             );
+            Console.WriteLine("Cortege comparing {0}: ", firstCortege.Equals(secondCortege));
 
             int intItemCortege = firstCortege.Item1;
             string firstStringItemCortege = firstCortege.Item2;
