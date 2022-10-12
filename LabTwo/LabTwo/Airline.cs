@@ -3,12 +3,13 @@ using System.Collections.Generic;
 
 namespace LabTwo
 {
+    //part with fieds and contructors
     partial class Airline
     {
         readonly int ID;
-        static string curDate;
-        
-        public int FlightNumber 
+        readonly static string curDate;
+
+        public int FlightNumber
         {
             get
             {
@@ -21,44 +22,9 @@ namespace LabTwo
         }
         int flightNumber;
 
-        string Destination
-        {
-            get
-            {
-                return destination;
-            }
-            set
-            {
-                destination = value;
-            }
-        }
-        string destination;
-
-        public string PlaneType
-        {
-            get
-            {
-                return planeType;
-            }
-            set
-            {
-                planeType = value;
-            }
-        }
-        string planeType;
-
-        public string DepartureTime
-        {
-            get
-            {
-                return departureTime;
-            }
-            set
-            {
-                departureTime = value;
-            }
-        }
-        string departureTime;
+        public string Destination { get; set; }
+        public string PlaneType { get; set; }
+        public string DepartureTime { get; set; }
 
         public string DaysOfTheWeek
         {
@@ -120,6 +86,7 @@ namespace LabTwo
         }
     }
 
+    //part with simple and overriding methods
     partial class Airline
     {
         public static string PrintStaticInfo()
@@ -145,7 +112,7 @@ namespace LabTwo
             if (obj == null) return false;
             if (!(obj is Airline)) return false;
 
-            return (FlightNumber == ((Airline) obj).FlightNumber) && 
+            return (FlightNumber == ((Airline)obj).FlightNumber) &&
                 (Destination == ((Airline)obj).Destination) &&
                 (PlaneType == ((Airline)obj).PlaneType) &&
                 (DepartureTime == ((Airline)obj).DepartureTime) &&
@@ -156,9 +123,9 @@ namespace LabTwo
         {
             List<Airline> returnFlights = new List<Airline>();
 
-            foreach(var flight in flights)
+            foreach (var flight in flights)
             {
-                if (flight.destination.ToLower() == destination.ToLower())
+                if (flight.Destination.ToLower() == destination.ToLower())
                 {
                     returnFlights.Add(flight);
                 }
@@ -167,7 +134,7 @@ namespace LabTwo
             return returnFlights;
         }
 
-        public bool hasDepartureDay(string departureDay)
+        public bool HasDepartureDay(string departureDay)
         {
             if (daysOfTheWeek.ToLower().Contains(departureDay.ToLower())) return true;
 

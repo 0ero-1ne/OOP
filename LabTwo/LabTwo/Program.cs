@@ -19,17 +19,25 @@ namespace LabTwo
                 Console.WriteLine(flight.ToString() + "\n");
             }
 
-            Console.WriteLine("------------------------------------");
+            Console.WriteLine("------------------------------------\n");
 
             foreach (var flight in flights)
             {
-                if (flight.hasDepartureDay("MN"))
+                if (flight.HasDepartureDay("MN"))
                 {
                     Console.WriteLine(flight.ToString() + "\n");
                 }
             }
 
             Console.WriteLine(Airline.PrintStaticInfo());
+
+            var plane = new { 
+                FlightNumber = 255,
+                Destination = "Brest",
+                FlightType = "Business",
+                DepartureType = "12:00",
+                DaysOfTheWeek = "MN, TU, WED, TH, FR, ST, SU"
+            };
         }
     }
 }
