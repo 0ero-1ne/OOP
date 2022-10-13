@@ -6,9 +6,11 @@ namespace LabThree
     {
         static void Main()
         {
-            Array iArray = new Array(5, 1, 2, 3, 4, 5);
-            iArray.RemoveElement(4);
-            Console.WriteLine(iArray[0]);
+            Array iArrayOne = new Array(6, 1, 2, 3, 4, 5, 6);
+            string str = "Hello, World!";
+            Console.WriteLine(StatisticOperation.Length(iArrayOne));
+            Array iArrayTwo = iArrayOne.RemoveFirstFiveElements();
+            iArrayTwo.PrintArray();
         }
     }
 }
