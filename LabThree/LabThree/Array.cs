@@ -5,6 +5,7 @@ namespace LabThree
     class Array
     {
         public Production production = new Production("SCANDIWEB");
+
         public object this[int index]
         {
             get => array[index];
@@ -141,18 +142,6 @@ namespace LabThree
 
             array = newArray;
         }
-
-        /*public void RemoveFirstFiveElements()
-        {
-            if (array.Length < 5) return;
-
-            object[] newArray = new object[array.Length - 5];
-            for (int i = 5, j = 0; i < array.Length; i++, j++)
-                newArray[j] = array[i];
-
-            length -= 5;
-            array = newArray;
-        }*/
 
         public void PrintArray()
         {

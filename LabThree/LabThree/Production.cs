@@ -4,7 +4,13 @@ namespace LabThree
 {
     class Production
     {
-        int ID;
+        public int ID
+        {
+            get => id;
+            set => id = value;
+        }
+
+        int id;
 
         public string Company
         {
