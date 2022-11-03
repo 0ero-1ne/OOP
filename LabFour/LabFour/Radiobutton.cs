@@ -2,7 +2,7 @@
 
 namespace LabFour
 {
-    class Radiobutton : СontrolElement
+    class Radiobutton : СontrolElement, IClickable
     {
         public bool Clicked { get; set; }
 
@@ -15,11 +15,13 @@ namespace LabFour
 
         public override void Click()
         {
-            Console.WriteLine("Clicked");
+            Console.WriteLine("Clicked class");
 
             if (Clicked) Clicked = false;
             else Clicked = true;
         }
+
+        void IClickable.Click() => Console.WriteLine("Clicked interface");
 
         public override string ToString()
         {

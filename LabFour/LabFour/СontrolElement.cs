@@ -1,6 +1,6 @@
 ﻿namespace LabFour
 {
-    abstract class СontrolElement : IClickable
+    abstract class СontrolElement
     {
         public string Name { get; set; }
 
