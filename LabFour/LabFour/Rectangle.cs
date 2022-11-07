@@ -1,6 +1,6 @@
 ﻿namespace LabFour
 {
-    class Rectangle : GeometricFigure
+    partial class Rectangle : GeometricFigure
     {
         public double Length { get; set; }
         public double Width { get; set; }
@@ -29,7 +29,7 @@
 
         public override string ToString()
         {
-            return string.Format("Length - {0}\nWidth - {1}", Length, Width);
+            return string.Format("Rectangle\tlength - {0} --- width - {1}", Length, Width);
         }
 
         public override bool Equals(object obj)
@@ -38,17 +38,6 @@
             if (!(obj is Rectangle)) return false;
 
             return ToString() == obj.ToString();
-        }
-
-        public override int GetHashCode()
-        {
-            return base.GetHashCode() + 1;
-        }
-
-        public override void Resize(double length, double width)
-        {
-            Length = length;
-            Width = width;
         }
     }
 }

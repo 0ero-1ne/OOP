@@ -46,6 +46,7 @@
     <Compile Include="Button.cs" />
     <Compile Include="Checkbox.cs" />
     <Compile Include="Circle.cs" />
+    <Compile Include="Controller.cs" />
     <Compile Include="GeometricFigure.cs" />
     <Compile Include="IClickable.cs" />
     <Compile Include="IGeometricFigure.cs" />
@@ -54,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radiobutton.cs" />
     <Compile Include="Rectangle.cs" />
+    <Compile Include="RectanglePartial.cs" />
+    <Compile Include="UI.cs" />
     <Compile Include="СontrolElement.cs" />
   </ItemGroup>
   <ItemGroup>

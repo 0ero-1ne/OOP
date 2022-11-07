@@ -35,7 +35,7 @@ namespace LabFour
 
         public override string ToString()
         {
-            return string.Format("Radius - {0}", Radius);
+            return string.Format("Circle\tradius - {0}", Radius);
         }
     }
 }

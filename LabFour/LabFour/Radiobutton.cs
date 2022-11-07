@@ -25,7 +25,7 @@ namespace LabFour
 
         public override string ToString()
         {
-            return string.Format("Radiobutton status - {0}", Clicked);
+            return string.Format("Radiobutton\tstatus - {0}", Clicked);
         }
     }
 }

@@ -23,7 +23,7 @@ namespace LabFour
 
         public override string ToString()
         {
-            return string.Format("Checkbox status - {0}", Checked);
+            return string.Format("Checkbox\tstatus - {0}", Checked);
         }
     }
 }
