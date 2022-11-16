@@ -4,7 +4,22 @@ namespace LabFour
 {
     sealed class Circle : GeometricFigure
     {
-        public double Radius { get; set; }
+        double radius;
+        public double Radius
+        {
+            get { return radius; }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ValueOutOfRange("The radius must be over 0", value);
+                }
+                else
+                {
+                    radius = value;
+                }
+            }
+        }
 
         public Circle() : base("Circle") { }
 

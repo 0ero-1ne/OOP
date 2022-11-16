@@ -31,6 +31,12 @@ namespace LabFour
             public string ShapeOfButton;
             string ColorOfButton;
 
+            public ButtonStruct(string shape)
+            {
+                ShapeOfButton = shape;
+                ColorOfButton = "Green";
+            }
+
             string GetColor()
             {
                 return ColorOfButton;

@@ -12,7 +12,17 @@ namespace LabFour
         public dynamic this[int index]
         {
             get => elements[index];
-            set => elements[index] = value;
+            set
+            {
+                if (value == null)
+                {
+                    throw new NullObject("The object should not store a null value");
+                }
+                else
+                {
+                    elements[index] = value;
+                }
+            }
         }
 
         List<dynamic> elements = new List<dynamic>();
@@ -21,6 +31,10 @@ namespace LabFour
 
         public void AddElement(dynamic item)
         {
+            if (item == null)
+            {
+                throw new NullObject("The object should not store a null value");
+            }
             elements.Add(item);
         }
 

@@ -17,8 +17,7 @@ namespace LabFour
         {
             Console.WriteLine("Clicked class");
 
-            if (Clicked) Clicked = false;
-            else Clicked = true;
+            Clicked = !Clicked;
         }
 
         void IClickable.Click() => Console.WriteLine("Clicked interface");
