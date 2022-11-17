@@ -10,9 +10,9 @@ namespace LabFour
             get { return radius; }
             set
             {
-                if (value <= 0)
+                if (value <= 0 || value >= 150)
                 {
-                    throw new ValueOutOfRange("The radius must be over 0", value);
+                    throw new ValueOutOfRange("The radius must be over 0 and less then 150", value);
                 }
                 else
                 {

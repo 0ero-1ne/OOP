@@ -1,9 +1,31 @@
-﻿namespace LabFour
+﻿using System.Diagnostics;
+
+namespace LabFour
 {
     partial class Rectangle : GeometricFigure
     {
-        public double Length { get; set; }
-        public double Width { get; set; }
+        double length;
+        public double Length
+        {
+            get => length;
+            set
+            {
+                Debug.Assert(value > 0);
+                length = value;
+            }
+        }
+        double width;
+        public double Width
+        {
+            get => width;
+            set
+            {
+                if (value < 0)
+                    throw new NegativeValue("Width of rectangle can not be negative", value);
+                else
+                    width = value;
+            }
+        }
 
         public Rectangle() : base("Rectangle") { }
 

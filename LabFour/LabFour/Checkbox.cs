@@ -17,8 +17,7 @@ namespace LabFour
         {
             Console.WriteLine("Checked");
 
-            if (Checked) Checked = false;
-            else Checked = true;
+            Checked = !Checked;
         }
 
         public override string ToString()

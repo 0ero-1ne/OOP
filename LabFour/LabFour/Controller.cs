@@ -9,7 +9,20 @@ namespace LabFour
 {
     class Controller
     {
-        UI Container;
+        UI container;
+
+        public UI Container
+        {
+            get => container;
+            set
+            {
+                if (value == null)
+                {
+                    throw new NullObject("The object should not store a null value");
+                }
+                container = value;
+            }
+        }
 
         public Controller(UI container)
         {

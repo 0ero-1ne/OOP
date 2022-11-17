@@ -50,6 +50,7 @@
     <Compile Include="GeometricFigure.cs" />
     <Compile Include="IClickable.cs" />
     <Compile Include="IGeometricFigure.cs" />
+    <Compile Include="NegativeValue.cs" />
     <Compile Include="NullObject.cs" />
     <Compile Include="Printer.cs" />
     <Compile Include="Program.cs" />
