@@ -8,7 +8,7 @@ namespace LabFour
         {
             try
             {
-                Circle circleOne = new Circle(-1);
+                Circle circleOne = new Circle(10);
                 UI container = new UI();
                 Rectangle rectangle = new Rectangle(10, 20);
                 Console.WriteLine(rectangle.CalculateSquare());
