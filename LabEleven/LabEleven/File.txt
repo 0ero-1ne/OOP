@@ -1,0 +1,236 @@
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Fields and propertires of class Circle:
+radius: System.Double
+Radius: System.Double
+Name: System.String
+
+Interfaces of class Circle:
+IGeometricFigure: LabEleven.IGeometricFigure
+
+Interfaces of class Circle:
+IGeometricFigure: LabEleven.IGeometricFigure
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Methods of class Circle with parameter radius:
+Resize: method has parameter radius
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Public methods of class Int32:
+CompareTo
+CompareTo
+Equals
+Equals
+GetHashCode
+ToString
+ToString
+ToString
+ToString
+Parse
+Parse
+Parse
+Parse
+TryParse
+TryParse
+GetTypeCode
+GetType
+
+Full name of assembly of class Circle: LabEleven, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Public methods of class Circle:
+get_Radius
+set_Radius
+CalculatePerimeter
+CalculateSquare
+Resize
+Calculate
+ToString
+get_Name
+set_Name
+Show
+Resize
+Equals
+GetHashCode
+GetType
+
+Public methods of class Int32:
+CompareTo
+CompareTo
+Equals
+Equals
+GetHashCode
+ToString
+ToString
+ToString
+ToString
+Parse
+Parse
+Parse
+Parse
+TryParse
+TryParse
+GetTypeCode
+GetType
+
