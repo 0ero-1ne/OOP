@@ -1,0 +1,27 @@
+Folders:
+$AV_ASW
+$RECYCLE.BIN
+Arduino project
+course-project
+DNS Server
+Fraps
+Games
+Godot_v3.5.1-stable_mono_win64
+KMS Tools Portable
+OOP
+puzzles
+Setups
+Share
+Stepik
+System Volume Information
+TypeScript Training
+Windows XP 1
+Базы данных
+Барабаны
+ИБ
+Компьютерные сети
+Математика
+
+Files:
+bootTel.dat
+pagefile.sys
